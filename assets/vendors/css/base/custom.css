@@ -1,0 +1,195 @@
+.default-sidebar{
+	background: rgba(46,52,81,0.85);
+}
+
+.default-sidebar>.side-navbar a[aria-expanded="true"]{
+	background: rgba(46,52,81,0.85);
+}
+
+.default-sidebar>.side-navbar ul li.active i, .default-sidebar>.side-navbar li ul li a.active{
+	color:  white;
+}
+
+.default-sidebar>.side-navbar ul ul{
+	background: rgba(46,52,81,0.85);
+}
+
+.default-sidebar>.side-navbar ul ul a{
+	color: white;
+}
+
+.default-sidebar>.side-navbar ul ul a:hover{
+	color: rgba(46,52,81,0.85);
+}
+
+a{
+	color: #3e5e45;
+}
+
+a:focus, a:hover{
+	color: #253d28;
+}
+
+.table thead th{
+	color: #253d28;
+}
+
+.page-header-title{
+	color: #3e5e45;
+}
+
+.page-header-title a {
+	color: #3e5e45;
+}
+
+.breadcrumb-item a {
+	color: #3e5e45;
+}
+
+.text-primary{
+	color: #3e5e45 !important;
+}
+
+.badge-text.info{
+	background: #3e5e45;
+}
+
+.table .td-actions a i{
+	color: #3e5e45;
+}
+
+.table .td-actions a i.edit:hover, .table .td-actions a i.more:hover{
+	background: #3e5e45;
+}
+
+.product-label {
+	color: grey;
+}
+
+nav.navbar .menu-btn span{
+	background: #253d28;
+}
+
+nav.navbar .user-size.dropdown-menu a.logout{
+	background: #3e5e45; 
+}
+
+nav.navbar .user-size.dropdown-menu a.logout:hover{
+	background: #253d28;
+}
+
+.default-sidebar>.side-navbar ul a:hover i {
+	color: white;
+}
+
+.default-sidebar>.side-navbar a[aria-expanded="true"] i{
+	color: white;
+}
+
+.spinner {
+	border-top: solid 5px #3e5e45;
+}
+
+/*.btn-gradient-01, .btn-gradient-01 a{
+	background: linear-gradient(to right, #3e5e45 0%, #253d28 100%);
+}*/
+
+/*.btn-gradient-01:active, .btn-gradient-01.active, .show>.btn-gradient-01.dropdown-toggle{
+	background: linear-gradient(to right, #3e5e45 0%, #253d28 100%);
+}*/
+
+/*.animated-icon .gradient, .animated-icon .gradient:after{
+	background: linear-gradient(135deg,#3e5e45 0%,#3e5e45 20%,#253d28 40%,#253d28 60%,#3e5e45 80%,#3e5e45 100%)
+}*/
+
+/*.bg-fixed-02 {
+	background: linear-gradient(135deg,#3e5e45 0%,#253d28 100%),url(../../../../assets/img/background/02.jpg) no-repeat center center
+}*/
+
+.step-wizard .progressbar{
+	background-color: #3e5e45;
+}
+
+.step-wizard li .step{
+	border-color: #3e5e45;
+}
+
+.step-wizard li>a{
+	color: black;
+}
+
+.step-wizard a:hover .step{
+	background-color: #3e5e45;
+}
+
+.step-wizard .active .step{
+	background-color: #3e5e45;
+	border-color: #3e5e45;
+}
+
+.step-wizard a:hover .title{
+	color: black;
+}
+
+.step-wizard .active .title{
+	color: black;
+}
+
+.step-wizard li .title{
+	color: rgba(0,0,0,0.5)
+}
+
+.section-title h1, .section-title h2, .section-title h3, .section-title h4, .section-title h5, .section-title h6{
+	color: #3e5e45;
+}
+
+.widget-header h1, .widget-header h2, .widget-header h3, .widget-header h4, .widget-header h5, .widget-header h6{
+	color: #3e5e45;
+}
+
+.form-control-label{
+	color: black;
+}
+
+.form-control{
+	color: black;
+}
+
+.form-control-plaintext{
+	color: rgba(0,0,0,0.5);
+}
+
+.btn-secondary{
+	color: black;
+}
+
+.btn-secondary:hover{
+	background: rgba(0,0,0,0.2);
+	color: black;
+	border-color: rgba(0,0,0,0.2);
+}
+
+.default-sidebar>.side-navbar ul ul{
+	background: rgba(46,52,81,0.85);
+}
+
+.default-sidebar>.side-navbar ul ul a:hover{
+	color: white;
+}
+
+.csv{
+	margin-left: 10px;
+	color: black !important;
+}
+
+.fact-table{
+	width: 60%;
+}
+
+.no-cob{
+	background: red !important;
+}
+
+.imp-aclaration{
+	color: #ccc;
+}
