@@ -11,7 +11,7 @@ Envato: https://www.themeforest.net/user/saerox?ref=Saerox
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Uiwi - Pedidos</title>
+        <title>Uiwi - Datos Cliente</title>
         <meta name="description" content="Elisyam is a Web App and Admin Dashboard Template built with Bootstrap 4">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- Google Fonts -->
@@ -52,15 +52,7 @@ Envato: https://www.themeforest.net/user/saerox?ref=Saerox
         <div class="page">
             <!-- Begin Header -->
             <header class="header">
-                <nav class="navbar fixed-top">
-                     <!-- Begin Search Box-->
-                    <div class="search-box">
-                        <button class="dismiss"><i class="ion-close-round"></i></button>
-                        <form id="searchForm" action="#" role="search">
-                            <input type="search" placeholder="Buscar..." class="form-control">
-                        </form>
-                    </div>
-                    <!-- End Search Box-->        
+                <nav class="navbar fixed-top">         
                     <!-- Begin Topbar -->
                     <div class="navbar-holder d-flex align-items-center align-middle justify-content-between">
                         <!-- Begin Logo -->
@@ -81,7 +73,6 @@ Envato: https://www.themeforest.net/user/saerox?ref=Saerox
                         <!-- End Logo -->
                         <!-- Begin Navbar Menu -->
                         <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center pull-right">
-                            <li class="nav-item d-flex align-items-center"><a id="search" href="#"><i class="la la-search"></i></a></li>
                             <!-- User -->
                             <li class="nav-item dropdown"><a id="user" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><img src="assets/img/avatar/avatar-01.jpg" alt="..." class="avatar rounded-circle"></a>
                                 <ul aria-labelledby="user" class="user-size dropdown-menu">
@@ -152,12 +143,12 @@ Envato: https://www.themeforest.net/user/saerox?ref=Saerox
                         <!-- Begin Page Header-->
                         <div class="row">
                             <div class="page-header">
-                                <div class="d-flex align-items-center">
-                                    <h2 class="page-header-title">Pedidos <a href="pedido-new.html"><i class="la la-plus"></i></a></h2>
+                                <div class="d-flex justify-content-end">
+                                    
                                     <div>
                                         <ul class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="db-default.html"><i class="ti ti-home"></i></a></li>
-                                            <li class="breadcrumb-item active">Pedidos</li>
+                                            <li class="breadcrumb-item active">Perfil Cliente</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -165,102 +156,119 @@ Envato: https://www.themeforest.net/user/saerox?ref=Saerox
                         </div>
                         <!-- End Page Header -->
                         <div class="row">
+                            
                             <div class="col-xl-12">
-                                <!-- Default -->
                                 <div class="widget has-shadow">
+                                    <div class="widget-header bordered no-actions d-flex align-items-center">
+                                        <h4>Arcos Dorados - Sede Olivos</h4>
+                                    </div>
                                     <div class="widget-body">
-                                        <div class="table-responsive">
-                                            <table class="table mb-0">
-                                                <thead>
-                                                    <tr>
-                                                        <th>Fecha</th>
-                                                        <th>Cliente</th>
-                                                        <th>Sede</th>
-                                                        <th><span>Productos</span></th>
-                                                        <th>Fact.</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                     <tr>
-                                                        <td><span>20/09/2018</span></td>
-                                                        <td class="text-primary">Arcos Dorados</td>
-                                                        <td>La Lucila</td>
-                                                        <td><a href="pedido-ficha.html">Ver Más</a></td>
-                                                        <td><span class="text-center"><a href="sedes.html"><span class="badge-text badge-text-small info"><i class="la la-check edit"></i></span></a></span></td>
-                                                        <td class="td-actions">
-                                                            <a href="pedido-new.html"><i class="la la-edit edit"></i></a>
-                                                            <a href="cliente-eliminado.html"><i class="la la-close delete"></i></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span>20/09/2018</span></td>
-                                                        <td class="text-primary">Arcos Dorados</td>
-                                                        <td>La Lucila</td>
-                                                        <td><a href="pedido-ficha.html">Ver Más</a></td>
-                                                        <td><span class="text-center"><a href="sedes.html"><span class="badge-text badge-text-small info"><i class="la la-check edit"></i></span></a></span></td>
-                                                        <td class="td-actions">
-                                                            <a href="pedido-new.html"><i class="la la-edit edit"></i></a>
-                                                            <a href="cliente-eliminado.html"><i class="la la-close delete"></i></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span>20/09/2018</span></td>
-                                                        <td class="text-primary">Arcos Dorados</td>
-                                                        <td>La Lucila</td>
-                                                        <td><a href="pedido-ficha.html">Ver Más</a></td>
-                                                        <td><span class="text-center"><a href="sedes.html"><span class="badge-text badge-text-small info"><i class="la la-check edit"></i></span></a></span></td>
-                                                        <td class="td-actions">
-                                                            <a href="pedido-new.html"><i class="la la-edit edit"></i></a>
-                                                            <a href="cliente-eliminado.html"><i class="la la-close delete"></i></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span>20/09/2018</span></td>
-                                                        <td class="text-primary">Arcos Dorados</td>
-                                                        <td>La Lucila</td>
-                                                        <td><a href="pedido-ficha.html">Ver Más</a></td>
-                                                        <td><span class="text-center"><a href="sedes.html"><span class="badge-text badge-text-small info"><i class="la la-check edit"></i></span></a></span></td>
-                                                        <td class="td-actions">
-                                                            <a href="pedido-new.html"><i class="la la-edit edit"></i></a>
-                                                            <a href="cliente-eliminado.html"><i class="la la-close delete"></i></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span>20/09/2018</span></td>
-                                                        <td class="text-primary">Arcos Dorados</td>
-                                                        <td>La Lucila</td>
-                                                        <td><a href="pedido-ficha.html">Ver Más</a></td>
-                                                        <td><span class="text-center"><a href="sedes.html"><span class="badge-text badge-text-small info"><i class="la la-check edit"></i></span></a></span></td>
-                                                        <td class="td-actions">
-                                                            <a href="pedido-new.html"><i class="la la-edit edit"></i></a>
-                                                            <a href="cliente-eliminado.html"><i class="la la-close delete"></i></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span>20/09/2018</span></td>
-                                                        <td class="text-primary">Arcos Dorados</td>
-                                                        <td>La Lucila</td>
-                                                        <td><a href="pedido-ficha.html">Ver Más</a></td>
-                                                        <td><span class="text-center"><a href="sedes.html"><span class="badge-text badge-text-small info"><i class="la la-check edit"></i></span></a></span></td>
-                                                        <td class="td-actions">
-                                                            <a href="pedido-new.html"><i class="la la-edit edit"></i></a>
-                                                            <a href="cliente-eliminado.html"><i class="la la-close delete"></i></a>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><span>20/09/2018</span></td>
-                                                        <td class="text-primary">Arcos Dorados</td>
-                                                        <td>La Lucila</td>
-                                                        <td><a href="pedido-ficha.html">Ver Más</a></td>
-                                                        <td><span class="text-center"><a href="sedes.html"><span class="badge-text badge-text-small info"><i class="la la-check edit"></i></span></a></span></td>
-                                                        <td class="td-actions">
-                                                            <a href="pedido-new.html"><i class="la la-edit edit"></i></a>
-                                                            <a href="cliente-eliminado.html"><i class="la la-close delete"></i></a>
-                                                        </td>
-                                                    </tr>
-                                                    
-                                                </tbody>
-                                            </table>
+                                        <div class="col-12 ml-auto text-center">
+                                            <div class="section-title mt-3 mb-5">
+                                                <h4>Información General</h4>
+                                            </div>
+                                        </div>
+                                        
+                                            <div class="form-group row d-flex align-items-center mb-3">
+                                                <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Nombre Sede</p>
+                                                <div class="col-lg-6">
+                                                    <p>Olivos</p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row d-flex align-items-center mb-3">
+                                                <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Dirección</p>
+                                                <div class="col-lg-6">
+                                                    <p>Domingo Faustino Sarmiento 3023</p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row d-flex align-items-center mb-3">
+                                                    <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Barrio</p>
+                                                    <div class="col-lg-6">
+                                                        <p>Olivos</p>
+                                                    </div>
+                                                </div>
+                                            <div class="form-group row d-flex align-items-center mb-3">
+                                                <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Provincia</p>
+                                                <div class="col-lg-6">
+                                                    <p>Buenos Aires</p>
+                                                </div>
+                                            </div>
+                                        
+                                        <div class="col-12 ml-auto text-center">
+                                            <div class="section-title mt-3 mb-5">
+                                                <h4>Contacto</h4>
+                                            </div>
+                                        </div>
+                                        
+                                            <div class="form-group row d-flex align-items-center mb-3">
+                                                <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Nombre</p>
+                                                <div class="col-lg-6">
+                                                    <p>Juan Pérez</p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row d-flex align-items-center mb-3">
+                                                <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Teléfono</p>
+                                                <div class="col-lg-6">
+                                                    <p>1512345678   </p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row d-flex align-items-center mb-3">
+                                                <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Mail</p>
+                                                <div class="col-lg-6">
+                                                    <p>juanperez@arcosdorados.com</p>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-12 ml-auto text-center">
+                                                <div class="section-title mt-3 mb-5">
+                                                    <h4>Productos</h4>
+                                                </div>
+                                            </div>
+                                            
+                                                <div class="form-group row d-flex align-items-center mb-3">
+                                                    <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Mix</p>
+                                                    <div class="col-lg-6">
+                                                        <p>$20</p>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row d-flex align-items-center mb-3">
+                                                    <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Frutos Secos</p>
+                                                    <div class="col-lg-6">
+                                                        <p>$16</p>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row d-flex align-items-center mb-3">
+                                                    <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Desayuno</p>
+                                                    <div class="col-lg-6">
+                                                        <p>$30</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12 ml-auto text-center">
+                                                    <div class="section-title mt-3 mb-5">
+                                                        <h4>Facturación</h4>
+                                                    </div>
+                                                </div>
+                                                
+                                                    <div class="form-group row d-flex align-items-center mb-3">
+                                                        <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">IVA</p>
+                                                        <div class="col-lg-6">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row d-flex align-items-center mb-3">
+                                                        <p class="col-lg-6 form-control-label d-flex justify-content-lg-end">Precio</p>
+                                                        <div class="col-lg-6">
+                                                            
+                                                        </div>
+                                                    </div>
+    
+                                        
+                                        <div class="em-separator separator-dashed"></div>
+                                        <div class="text-right">
+                                            <a href="sede-edit.html" class="btn btn-gradient-01">Editar</button>
+                                            <a href="sedes.html" class="btn btn-shadow" type="reset">Clientes</a>
                                         </div>
                                     </div>
                                 </div>

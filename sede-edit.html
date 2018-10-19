@@ -103,7 +103,6 @@ Envato: https://www.themeforest.net/user/saerox?ref=Saerox
                             <li><a href="#dropdown-cl" aria-expanded="false" data-toggle="collapse"><i class="la la-user"></i><span>Clientes</span></a>
                                 <ul id="dropdown-cl" class="collapse list-unstyled pt-0">
                                     <li><a href="clientes.html">Lista</a></li>
-                                    <li><a href="sedes.html">Sedes</a></li>
                                     <li><a href="client-new.html">Nuevo Cliente</a></li>
                                 </ul>
                             </li>
@@ -145,11 +144,11 @@ Envato: https://www.themeforest.net/user/saerox?ref=Saerox
                         <div class="row">
                             <div class="page-header">
                                 <div class="d-flex align-items-center">
-                                    <h2 class="page-header-title">Arcos Dorados<a href="clientes-ad.html"></a></h2>
+                                    <h2 class="page-header-title">Arcos Dorados - Olivos<a href="clientes-ad.html"></a></h2>
                                     <div>
                                         <ul class="breadcrumb">
                                             <li class="breadcrumb-item"><a href="db-default.html"><i class="ti ti-home"></i></a></li>
-                                            <li class="breadcrumb-item active">Arcos Dorados - Editar Sede</li>
+                                            <li class="breadcrumb-item active">Arcos Dorados - Olivos - Editar Sede</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -164,38 +163,135 @@ Envato: https://www.themeforest.net/user/saerox?ref=Saerox
                                         <h4>Editar sede</h4>
                                     </div>
                                     <div class="widget-body">
-                                        <form action="sede-edit-success.html" class="needs-validation" novalidate>
-                                            <div class="form-group row d-flex align-items-center mb-5">
-                                                <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Dirección</label>
-                                                <div class="col-lg-5">
-                                                    <input type="text" class="form-control" placeholder="Ingrese una dirección" required>
+                                            <form action="sede-edit-success.html" class="needs-validation" novalidate>
+                                                    <div class="col-12 ml-auto text-center">
+                                                        <div class="section-title mt-3 mb-5">
+                                                            <h4>Información</h4>
+                                                        </div>
+                                                    </div>
+                                                <div class="form-group row d-flex align-items-center mb-5">
+                                                    <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Nombre</label>
+                                                    <div class="col-lg-5">
+                                                        <input type="text" class="form-control" placeholder="Ingrese un nombre de sede" required>
+                                                    </div>
                                                 </div>
-                                                 <div class="invalid-feedback">
-                                                        Please enter a valid password
+                                                <div class="form-group row d-flex align-items-center mb-5">
+                                                        <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Dirección</label>
+                                                        <div class="col-lg-5">
+                                                            <input type="text" class="form-control" placeholder="Ingrese una dirección" required>
+                                                        </div>     
+                                                    </div>
+                                                <div class="form-group row d-flex align-items-center mb-5">
+                                                    <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Barrio</label>
+                                                    <div class="col-lg-5">
+                                                        <input type="text" class="form-control" placeholder="Ingrese barrio" required>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-group row d-flex align-items-center mb-5">
-                                                <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Barrio</label>
-                                                <div class="col-lg-5">
-                                                    <input type="text" class="form-control" placeholder="Ingrese una dirección" required>
+                                                <div class="form-group row d-flex align-items-center mb-5">
+                                                        <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Provincia</label>
+                                                        <div class="col-lg-5">
+                                                            <input type="text" class="form-control" placeholder="Ingrese provincia" required>
+                                                        </div>
+                                                    </div>
+                                                <div class="col-12 ml-auto text-center">
+                                                        <div class="section-title mt-3 mb-5">
+                                                            <h4>Contacto</h4>
+                                                        </div>
+                                                     </div>
+                                                    <div class="form-group row d-flex align-items-center mb-5">
+                                                        <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Nombre</label>
+                                                        <div class="col-lg-5">
+                                                            <input type="text" class="form-control" placeholder="Ingrese nombre de contacto" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row d-flex align-items-center mb-5">
+                                                        <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Email</label>
+                                                        <div class="col-lg-5">
+                                                            <div class="input-group">
+                                                                <input type="email" class="form-control" placeholder="Ingrese email de contacto" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row d-flex align-items-center mb-5">
+                                                        <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Teléfono</label>
+                                                        <div class="col-lg-5">
+                                                            <div class="input-group">
+                                                                <input type="text" class="form-control" placeholder="Ingrese teléfono de contacto">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                <div class="col-12 ml-auto text-center">
+                                                    <div class="section-title mt-3 mb-5">
+                                                        <h4>Productos</h4>
+                                                    </div>
+                                                 </div>
+                                                 <div class="form-group row d-flex mb-5">
+                                                        <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Precio</label>
+                                                        <div class="col-lg-5">
+                                                        
+                                                                    <div class="form-group row mb-3">
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Mix</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Frutos Secos</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Bananas</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Mix</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Frutos Secos</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Bananas</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Mix</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Frutos Secos</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                        <div class="col-xl-4 mb-5">
+                                                                            <label class="product-label">Bananas</label>
+                                                                            <input type="email" value="0" class="form-control">
+                                                                        </div>
+                                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                <div class="col-12 ml-auto text-center">
+                                                        <div class="section-title mt-3 mb-5">
+                                                            <h4>Facturación</h4>
+                                                        </div>
+                                                     </div>
+                                                    <div class="form-group row d-flex align-items-center mb-5">
+                                                        <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">IVA</label>
+                                                        <div class="col-lg-5">
+                                                            <input type="text" class="form-control" placeholder="Ingrese IVA" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row d-flex align-items-center mb-5">
+                                                        <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Precio</label>
+                                                        <div class="col-lg-5">
+                                                            <div class="input-group">
+                                                                <input type="email" class="form-control" placeholder="Ingrese precio" required>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                <div class="text-right">
+                                                    <button class="btn btn-gradient-01" type="submit">Guardar</button>
                                                 </div>
-                                                 <div class="invalid-feedback">
-                                                        Please enter a valid password
-                                                </div>
-                                            </div>
-                                            <div class="form-group row d-flex align-items-center mb-5">
-                                                <label class="col-lg-4 form-control-label d-flex justify-content-lg-end">Provincia</label>
-                                                <div class="col-lg-5">
-                                                    <input type="text" class="form-control" placeholder="Ingrese una dirección" required>
-                                                </div>
-                                                 <div class="invalid-feedback">
-                                                        Please enter a valid password
-                                                </div>
-                                            </div>
-                                            <div class="text-right">
-                                                <button class="btn btn-gradient-01" type="submit">Guardar</button>
-                                            </div>
-                                        </form>
+                                            </form>
                                     </div>
                                 </div>
                                 <!-- End Default -->
